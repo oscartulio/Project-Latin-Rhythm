@@ -87,3 +87,12 @@
     border-radius: 1rem 0 0 1rem;
     box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
+
+.fas{
+    color: black;
+}
+
+.callout.large{
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/0f/59/53/0f59539c7e393ce4627869592170d38c.jpg);
+}
