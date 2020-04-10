@@ -43,12 +43,18 @@
     font-size: 1.1em;
     margin-bottom: 0.5em;
 }
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
 
-.footer .footer-content .about .socials a{
+}
+
+.footer .footer-content .about .socials i{
     border: 1px solid gray;
     width: 2.9em;
-    height: 2.5em;
-    padding-top: 0.3em;
+    height: 2.3em;
+    padding-top: 0.6em;
     margin-right: 0.3em;
     text-align: center;
     display: inline-block;
@@ -75,6 +81,25 @@
     border: 1px solid white;
     color: white;
     transition: all .3s;
+}
+
+
+.footer .footer-content .contact-form .contact-input{
+    background: #000000;
+    color: #0099ff;
+    margin-bottom: 0.6em;
+    line-height: 1.5em;
+    padding: .7em 1.2em;
+    
+}
+
+.btn-big{
+    padding: .7em 1.3em;
+    line-height: 1.3em;
+    border: 1px solid white;
+    margin-bottom: 0.6em;
+    float: right;
+    
 }
 
 .footer .footer-bottom{
