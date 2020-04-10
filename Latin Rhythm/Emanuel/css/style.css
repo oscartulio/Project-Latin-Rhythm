@@ -16,12 +16,6 @@
     cursor: pointer;   
 }
 
-.callout :hover{
-    background-color: #000000;
-    
-}
-
-
 /*Footer*/
 
 .footer{
@@ -41,6 +35,46 @@
     flex: 1;
     padding: 1.6em;
     border: 1px solid white;
+}
+
+
+.footer .footer-content .about .contact {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+
+.footer .footer-content .about .socials a{
+    border: 1px solid gray;
+    width: 2.9em;
+    height: 2.5em;
+    padding-top: 0.3em;
+    margin-right: 0.3em;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 0.3em;
+    transition: all .3s;
+}
+
+.footer .footer-content .link ul a{
+    display: block;
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+
+.footer .footer-content .link ul a :hover{
+    color: white;
+    margin-left: 0.9em;
+    transition: all .3s;
+}
+
+
+.footer .footer-content .about .socials a :hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
 }
 
 .footer .footer-bottom{
