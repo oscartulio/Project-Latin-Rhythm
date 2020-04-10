@@ -1,8 +1,56 @@
 
 .top-bar{
     background-color: #0099ff;
+
 }
 
 .callout.primary{
     background-color: #000000;
+    background-image: url(https://i.pinimg.com/originals/0f/59/53/0f59539c7e393ce4627869592170d38c.jpg);
+
+}
+
+.callout{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;   
+}
+
+.callout :hover{
+    background-color: #000000;
+    
+}
+
+
+/*Footer*/
+
+.footer{
+    background: #000000;
+    color: #0099ff;
+    height: 25em;
+    position: relative;
+}
+
+.footer .footer-content{
+    border: 1px solid red;
+    height: 21.9em;
+    display: flex;
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 1.6em;
+    border: 1px solid white;
+}
+
+.footer .footer-bottom{
+    background: #000000;
+    color: #0099ff;
+    height: 3.2em;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    padding-top: 1.25em;
 }
