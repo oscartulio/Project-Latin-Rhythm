@@ -23,10 +23,6 @@
 }
 
 
-
-
-
-
 .callout{
     display: flex;
     justify-content: center;
@@ -41,23 +37,50 @@
     text-align: justify;
 }
 
+.marcas{
+    background-color: #ffffff;
+    padding: 8em;
+    background-image: url(/img/marcas2.gif);
+    background-position: center;
+}
+@media (min-width: 768px)
+{
+.marcas{
+background-color: #ffffff;
+   padding: 8em;
+   background-image: url(/img/marcas.gif);
+   background-position: center;
+}
+}
 
 /*Footer*/
 
 .footer{
+    margin-top: 3px;
     background: #000000;
     color: #0099ff;
-    height: 25em;
+    height: 10em;
     position: relative;
-}
-
-.footer .footer-content{
-    border: 1px solid red;
-    height: 21.9em;
     display: flex;
 }
 
+.footer .footer-content{
+    background: #000000;
+    border: 1px solid red;
+    height: 21.9em;
+    display: flex;
+    flex-flow: column;
+}
+
+@media (min-width: 768px){
+    .footer .footer-content{
+        flex-flow: row;
+    }
+}
+
+
 .footer .footer-content .footer-section{
+    background: #000000;
     flex: 1;
     padding: 1.6em;
     border: 1px solid white;
@@ -77,7 +100,8 @@
 }
 
 .footer .footer-content .about .socials i{
-    border: 1px solid gray;
+    display: flex;   
+     border: 1px solid gray;
     width: 2.9em;
     height: 2.3em;
     padding-top: 0.6em;
