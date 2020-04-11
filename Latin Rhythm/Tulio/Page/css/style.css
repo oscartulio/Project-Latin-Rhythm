@@ -1,12 +1,13 @@
 
-.top-bar{
-    background-color: #0099ff;
-
+.container{
+    background-image: url(../img/musical-background-2886886_1280.jpg);
+    background-color: white;
+    background-position: initial;
 }
 
 
 .callout.primary{
-    background-color: #ffffff;
+   background-color: #ffffff;
    padding: 8em;
    background-image: url(/img/pryecto-GIF.gif);
    background-position: center;
@@ -26,7 +27,21 @@
 .callout{
     display: flex;
     justify-content: center;
-    cursor: pointer;   
+    cursor: pointer;  
+    background-color:#0099ff; 
+}
+.callout:hover{
+
+    background-color:#026eb6; 
+}
+
+.menu.simple a{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.menu.simple a:hover{
+    color: #51b1f1;
 }
 
 .blog-post{
@@ -35,6 +50,7 @@
 
 .description{
     text-align: justify;
+    font-size: 22px;
 }
 
 .marcas{
@@ -46,7 +62,7 @@
 @media (min-width: 768px)
 {
 .marcas{
-background-color: #ffffff;
+   background-color: #ffffff;
    padding: 8em;
    background-image: url(/img/marcas.gif);
    background-position: center;
@@ -57,7 +73,7 @@ background-color: #ffffff;
 
 .footer{
     margin-top: 3px;
-    background: #000000;
+    background: rgb(0, 0, 0.1);
     color: #0099ff;
     height: 10em;
     position: relative;
@@ -66,7 +82,7 @@ background-color: #ffffff;
 
 .footer .footer-content{
     background: #000000;
-    border: 1px solid red;
+    border: 1px solid #0099ff;
     height: 21.9em;
     display: flex;
     flex-flow: column;
