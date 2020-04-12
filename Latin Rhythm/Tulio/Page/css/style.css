@@ -17,7 +17,7 @@ margin-top: auto;
 .callout.primary{
    background-color: #ffffff;
    padding: 8em;
-   background-image: url(/img/pryecto-GIF.gif);
+   background-image: url(../img/pryecto-GIF.gif);
    background-position: center;
 }
 
@@ -26,11 +26,11 @@ margin-top: auto;
 .callout.primary{
     background-color: #ffffff;
    padding: 8em;
-   background-image: url(/img/pryecto-GIF2.gif);
+   background-image: url(../img/pryecto-GIF2.gif);
    background-position: center;
 }
 }
-
+z
 
 .callout{
     display: flex;
@@ -64,7 +64,7 @@ margin-top: auto;
 .marcas{
     background-color: #ffffff;
     padding: 8em;
-    background-image: url(/img/marcas2.gif);
+    background-image: url(../img/marcas2.gif);
     background-position: center;
 }
 @media (min-width: 768px)
@@ -72,7 +72,7 @@ margin-top: auto;
 .marcas{
    background-color: #ffffff;
    padding: 8em;
-   background-image: url(/img/marcas.gif);
+   background-image: url(../img/marcas.gif);
    background-position: center;
 }
 }
