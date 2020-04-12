@@ -5,6 +5,14 @@
     background-position: initial;
 }
 
+.top-bar-right{
+    font-size: 35px;
+}
+
+.top-bar-left{
+margin-left: 2em;
+margin-top: auto;
+}
 
 .callout.primary{
    background-color: #ffffff;
