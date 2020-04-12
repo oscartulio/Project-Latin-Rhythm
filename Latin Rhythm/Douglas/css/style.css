@@ -44,10 +44,19 @@ body {
     background-position: center;
     height: 15em;
 }
+
 .callout.vientos{
     background-color: #ffffff;
     padding: 10em;
     background-image: url(../recursos/viento.gif);
+    background-position: center;
+    height: 15em;
+}
+
+.callout.percusion{
+    background-color: #ffffff;
+    padding: 10em;
+    background-image: url(../recursos/percusion.gif);
     background-position: center;
     height: 15em;
 }
