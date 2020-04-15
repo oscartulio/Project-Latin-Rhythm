@@ -17,6 +17,12 @@ body {
 img{
   max-width: 100%;
 }
-button{
+.button{
   font-size: 3em;
+}
+.otherproducts{
+  display: grid;
+  grid-template-columns: (4, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
 }
