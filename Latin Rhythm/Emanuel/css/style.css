@@ -1,37 +1,110 @@
 
-.top-bar{
-    background-color: #0099ff;
+.container{
+    background-image: url(../img/musical-background-2886886_1280.jpg);
+    background-color: white;
+    background-position: initial;
+}
 
+.top-bar-right{
+    font-size: 35px;
+}
+
+.top-bar-left{
+margin-left: 2em;
+margin-top: auto;
 }
 
 .callout.primary{
-    background-color: #000000;
-    background-image: url(https://i.pinimg.com/originals/0f/59/53/0f59539c7e393ce4627869592170d38c.jpg);
-
+   background-color: #ffffff;
+   padding: 8em;
+   background-image: url(../img/pryecto-GIF.gif);
+   background-position: center;
 }
+
+@media (min-width: 768px)
+{
+.callout.primary{
+    background-color: #ffffff;
+   padding: 8em;
+   background-image: url(../img/pryecto-GIF2.gif);
+   background-position: center;
+}
+}
+z
 
 .callout{
     display: flex;
     justify-content: center;
-    cursor: pointer;   
+    cursor: pointer;  
+    background-color:#0099ff; 
+}
+.callout:hover{
+
+    background-color:#026eb6; 
+}
+
+.menu.simple a{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.menu.simple a:hover{
+    color: #51b1f1;
+}
+
+.blog-post{
+    text-align: center;
+}
+
+.description{
+    text-align: justify;
+    font-size: 22px;
+}
+
+.marcas{
+    background-color: #ffffff;
+    padding: 8em;
+    background-image: url(../img/marcas2.gif);
+    background-position: center;
+}
+@media (min-width: 768px)
+{
+.marcas{
+   background-color: #ffffff;
+   padding: 8em;
+   background-image: url(../img/marcas.gif);
+   background-position: center;
+}
 }
 
 /*Footer*/
 
 .footer{
-    background: #000000;
+    margin-top: 3px;
+    background: rgb(0, 0, 0.1);
     color: #0099ff;
-    height: 25em;
+    height: 10em;
     position: relative;
-}
-
-.footer .footer-content{
-    border: 1px solid red;
-    height: 21.9em;
     display: flex;
 }
 
+.footer .footer-content{
+    background: #000000;
+    border: 1px solid #0099ff;
+    height: 21.9em;
+    display: flex;
+    flex-flow: column;
+}
+
+@media (min-width: 768px){
+    .footer .footer-content{
+        flex-flow: row;
+    }
+}
+
+
 .footer .footer-content .footer-section{
+    background: #000000;
     flex: 1;
     padding: 1.6em;
     border: 1px solid white;
@@ -51,7 +124,8 @@
 }
 
 .footer .footer-content .about .socials i{
-    border: 1px solid gray;
+    display: flex;   
+     border: 1px solid gray;
     width: 2.9em;
     height: 2.3em;
     padding-top: 0.6em;
