@@ -65,6 +65,29 @@ body {
     text-align: justify;
 }
 
+.containercuerdas{
+    background-image: url(../recursos/background\ cuerda.jpg);
+    background-color: white;
+    background-position: initial;
+}
+
+.containercuerdas{
+    background-image: url(../recursos/background\ cuerda.jpg);
+    background-color: white;
+    background-position: initial;
+}
+
+.containerpercusion{
+    background-image: url(../recursos/background\ percusion.jpg);
+    background-color: white;
+    background-position: initial;
+}
+
+.containerviento{
+    background-image: url(../recursos/background\ viento.jpg);
+    background-color: white;
+    background-position: initial;
+}
 
 /*Social bar*/
 .social-bar{
