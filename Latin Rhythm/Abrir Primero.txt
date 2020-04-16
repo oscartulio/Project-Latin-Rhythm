@@ -1,0 +1,10 @@
+Para poder ingresar al sitio de Latin Rhythm seguir los siguientes pasos:
+        
+	1. Ingresar a la carpeta "Página"
+	2. Ejecutar el Archivo HTML llamado: "Index Principal"
+	3. ¡Listo!
+
+Esperamos que disfrutes la instancia en nuestro sitio Web
+	
+	-Latin Rhythm 
+
